@@ -7,7 +7,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix = '>', case_insensitive=True)
 bot.remove_command('help')
-TOKEN = ''
+TOKEN = 'PUT YOUR BOT TOKEN HERE'
 
 @bot.event
 async def on_ready():
